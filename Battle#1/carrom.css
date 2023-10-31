@@ -1,0 +1,25 @@
+/* The key part of this solution lies in the positioning of the body and div elements. Take of note of that. */
+
+<div></div>
+<div class="a"></div>
+<div class="b"></div>
+<div class="a b"></div>
+<style>
+  body{
+    background:#62374e;
+    margin:50px; 
+    position:relative;
+}
+div{
+  width:50px;
+  height:50px;
+  background:#fdc57b;
+  position:absolute;
+}
+  .a{
+    right:0;
+  }
+  .b{
+    bottom:0;
+  }
+</style>
