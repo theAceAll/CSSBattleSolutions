@@ -1,0 +1,30 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body{
+    background:#504B72;
+position:relative;
+      }
+
+#b{
+    width:200;
+    height:200;
+    border-radius:50%;
+    background-color:#FFFBCC;
+  margin:50;
+  margin-left:92;
+  margin-top:42;
+  position:absolute;
+  }
+  #a{
+    width: 100px;
+     height:100px;
+     background: #504B72;
+    margin:100;
+    margin-left:142;
+     margin-top:92;
+    rotate:45deg;
+     position:absolute;
+     z-index:1
+  }
+</style>
